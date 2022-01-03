@@ -1,0 +1,61 @@
+$first-color: #66A8F6;
+$secondary-color: #1779EE;
+$third-color: #066BE3;
+
+.navbar-expand-lg {
+    background-color: $secondary-color;
+}
+
+.blog-card-body{
+    background-color: $first-color;
+}
+
+.link-hover:hover{
+    text-decoration: underline;
+}
+
+body {
+    position: relative;
+    overflow-y: scroll;
+}
+
+.container1 {
+    bottom: 0;
+}
+
+.color1 {
+    background-color: $secondary-color;
+    color: white;
+}
+
+.effect {
+    color: white;
+    text-decoration: none;
+}
+
+.effect:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.darkblue {
+    background-color: $first-color;
+    color: white;
+}
+
+.darkblue:hover {
+    background-color: $secondary-color;
+    color: white;
+}
+
+.darkestblue {
+    background-color: $third-color;
+}
+
+.darkestblue:hover {
+    background-color: $secondary-color;
+}
+
+.card-hover:hover{
+    cursor: pointer;
+}
